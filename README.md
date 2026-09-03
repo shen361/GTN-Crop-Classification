@@ -37,7 +37,7 @@ conda install -c conda-forge gdal
 ## 快速开始
 1. 数据准备流程
 
-使用 RGB_to_csv_batch_bands.py 将多时相 TIFF 转为按波段的时间序列 CSV。
+使用** RGB_to_csv_batch_bands.py **将多时相 TIFF 转为按波段的时间序列 CSV。
 使用 PolygonToRaster.py + label_process2.py 生成标签 CSV。
 使用 create_dataset_based_on_label_2.py 提取有标签的训练样本。
 （可选）使用 merge_times_series.py 将多个区域的时间序列对齐并合并（论文中用于扩大训练样本）。
