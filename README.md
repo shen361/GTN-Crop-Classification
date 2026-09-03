@@ -20,8 +20,8 @@ pip install torch torchvision torchaudio
 pip install numpy pandas scikit-learn tqdm matplotlib
 # GDAL 推荐用 conda 安装
 conda install -c conda-forge gdal
-
-目录结构
+```
+## 目录结构
 ├── MTCRNN_train_6ch_SoftDTW.py     # 完整训练代码（六通道 + Soft-DTW）
 ├── MTCRNN_predict_6ch_SoftDTW.py   # 对应预测代码
 ├── merge_times_series.py           # 多区域时间序列对齐与融合
@@ -33,7 +33,7 @@ conda install -c conda-forge gdal
 ├── Consistent_projection.py
 └── README.md
 
-快速开始
+## 快速开始
 1. 数据准备流程
 
 使用 RGB_to_csv_batch_bands.py 将多时相 TIFF 转为按波段的时间序列 CSV。
