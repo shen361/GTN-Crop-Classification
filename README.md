@@ -1,4 +1,4 @@
-# MTCRNN: Multi-Temporal Crop Classification with Gated Temporal Network
+# GTN: Multi-Temporal Crop Classification with Gated Temporal Network
 
 **六通道版本（4光谱 + 有效性掩码 + DOY） + Soft-DTW 一致性正则 + 门控注意力**
 
